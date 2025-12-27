@@ -42,7 +42,7 @@ The goal is to predict the probability of failure based on a rolling window of t
 
 The model is built using TensorFlow/Keras with a specific focus on sequence processing:
 
-```mermaid
+```
 graph LR
     A[Input Sequence<br/>(20 Time Steps)] --> B[LSTM Layer<br/>(50 Units, ReLU)]
     B --> C[Dense Layer<br/>(25 Units, ReLU)]
