@@ -48,3 +48,4 @@ graph LR
     B --> C[Dense Layer<br/>(25 Units, ReLU)]
     C --> D[Output Layer<br/>(Sigmoid)]
     D --> E[Fault Probability<br/>(0.0 to 1.0)]
+```
